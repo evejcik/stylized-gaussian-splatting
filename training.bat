@@ -2,7 +2,7 @@
 
 python train.py -s data/ferns --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/s5.jpeg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/ferns_hq/chkpnt30000.pth --model_path output/ferns/s5
 
-python train.py -s data/ferns --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/watering_cam.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/ferns_hq/chkpnt30000.pth --model_path output/ferns/watering_cam
+python train.py -s data/ferns --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/watering_can.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/ferns_hq/chkpnt30000.pth --model_path output/ferns/watering_can
 
 
 python train.py -s data/ferns --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/055.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/ferns_hq/chkpnt30000.pth --model_path output/ferns/055
@@ -35,7 +35,7 @@ python train.py -s data/ferns --checkpoint_iterations 31000 32000 33000 --save_i
 
 python train.py -s data/bicycle --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/s5.jpeg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/bicycle/chkpnt30000.pth --model_path output/bicycle/s5
 
-python train.py -s data/bicycle --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/watering_cam.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/bicycle/chkpnt30000.pth --model_path output/bicycle/watering_cam
+python train.py -s data/bicycle --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/watering_can.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/bicycle/chkpnt30000.pth --model_path output/bicycle/watering_can
 
 
 python train.py -s data/bicycle --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/055.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/bicycle/chkpnt30000.pth --model_path output/bicycle/055
@@ -68,7 +68,7 @@ python train.py -s data/bicycle --checkpoint_iterations 31000 32000 33000 --save
 
 python train.py -s data/flower --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/s5.jpeg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/flower_hq/chkpnt30000.pth --model_path output/flower/s5
 
-python train.py -s data/flower --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/watering_cam.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/flower_hq/chkpnt30000.pth --model_path output/flower/watering_cam
+python train.py -s data/flower --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/watering_can.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/flower_hq/chkpnt30000.pth --model_path output/flower/watering_can
 
 
 python train.py -s data/flower --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/055.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/flower_hq/chkpnt30000.pth --model_path output/flower/055
@@ -101,7 +101,7 @@ python train.py -s data/flower --checkpoint_iterations 31000 32000 33000 --save_
 
 python train.py -s data/trottier --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/s5.jpeg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/trottier/chkpnt30000.pth --model_path output/trottier/s5
 
-python train.py -s data/trottier --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/watering_cam.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/trottier/chkpnt30000.pth --model_path output/trottier/watering_cam
+python train.py -s data/trottier --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/watering_can.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/trottier/chkpnt30000.pth --model_path output/trottier/watering_can
 
 
 python train.py -s data/trottier --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/055.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/trottier/chkpnt30000.pth --model_path output/trottier/055
@@ -128,10 +128,5 @@ python train.py -s data/trottier --checkpoint_iterations 31000 32000 33000 --sav
 python train.py -s data/trottier --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/seated_nude.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/trottier/chkpnt30000.pth --model_path output/trottier/seated_nude
 
 python train.py -s data/trottier --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/starry_night.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/trottier/chkpnt30000.pth --model_path output/trottier/starry_night
-
-
-
-
-
 
 
