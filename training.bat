@@ -28,7 +28,7 @@ python train.py -s data/ferns --checkpoint_iterations 31000 32000 33000 --save_i
 
 python train.py -s data/ferns --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/seated_nude.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/ferns_hq/chkpnt30000.pth --model_path output/ferns/seated_nude
 
-python train.py -s data/ferns --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/starry_night.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/ferns_hq/chkpnt30000.pth --model_path output/ferns/starry_night
+python train.py -s data/ferns --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/starrynight.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/ferns_hq/chkpnt30000.pth --model_path output/ferns/starrynight
 
 
 
@@ -61,7 +61,7 @@ python train.py -s data/bicycle --checkpoint_iterations 31000 32000 33000 --save
 
 python train.py -s data/bicycle --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/seated_nude.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/bicycle/chkpnt30000.pth --model_path output/bicycle/seated_nude
 
-python train.py -s data/bicycle --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/starry_night.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/bicycle/chkpnt30000.pth --model_path output/bicycle/starry_night
+python train.py -s data/bicycle --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/starrynight.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/bicycle/chkpnt30000.pth --model_path output/bicycle/starrynight
 
 
 
@@ -94,7 +94,7 @@ python train.py -s data/flower --checkpoint_iterations 31000 32000 33000 --save_
 
 python train.py -s data/flower --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/seated_nude.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/flower_hq/chkpnt30000.pth --model_path output/flower/seated_nude
 
-python train.py -s data/flower --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/starry_night.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/flower_hq/chkpnt30000.pth --model_path output/flower/starry_night
+python train.py -s data/flower --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/starrynight.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/flower_hq/chkpnt30000.pth --model_path output/flower/starrynight
 
 
 
@@ -127,6 +127,6 @@ python train.py -s data/trottier --checkpoint_iterations 31000 32000 33000 --sav
 
 python train.py -s data/trottier --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/seated_nude.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/trottier/chkpnt30000.pth --model_path output/trottier/seated_nude
 
-python train.py -s data/trottier --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/starry_night.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/trottier/chkpnt30000.pth --model_path output/trottier/starry_night
+python train.py -s data/trottier --checkpoint_iterations 31000 32000 33000 --save_iterations 31000 32000 33000 --style_path style/starrynight.jpg --stylize_iter_start 30001 --data_device gpu --iterations 33000 --start_checkpoint preReconScenes/trottier/chkpnt30000.pth --model_path output/trottier/starrynight
 
 
